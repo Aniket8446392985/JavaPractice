@@ -27,12 +27,14 @@ public class Operators {
         double c = b/a;
         System.out.println(c);
 
-        // Comparison operator
+        // Assignment operator
 
         String Name = "Aniket";
         String Name2= "Ankush";
         System.out.println(Name == Name2);
         System.out.println(Name!=Name2);
+
+        // Comparison operator
         System.out.println(a<b);
         System.out.println(a>=b);
 
@@ -40,6 +42,15 @@ public class Operators {
 
         System.out.println(Name== Name2 && b>a);
         System.out.println(Name== Name2 || b>a);
+
+        //Bitwise opereator
+        // this operator will convert the entered values in bit code and then does the operation mentioned
+        // eg & and |
+        int x =2;
+        int y =3;
+        System.out.println(x & y);
+        System.out.println(x | y);
+
     }
 
 }

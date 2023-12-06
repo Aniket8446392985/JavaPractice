@@ -58,5 +58,6 @@ public class MethodsInStringClass {
         System.out.println(Body.trim().equalsIgnoreCase("harry")); // this will return true as both strings matches ignoring the case
 
 
+
     }
 }

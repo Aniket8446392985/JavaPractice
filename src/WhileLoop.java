@@ -24,7 +24,6 @@ public class WhileLoop {
         }
 */
 
-
         // Do while loop this is a loop which will execute once even if the condition is not true in side while
 
         do {

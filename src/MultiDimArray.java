@@ -7,42 +7,36 @@ public class MultiDimArray {
         // here we will see the array of arrays
 
         //normal array
-        int [] numbers={1,2,3};
+        int[] numbers = {1, 2, 3};
 
         // Two dimentional array is a array which has another integer arrays as its members
 
-        int [][] twodim = new int[3][3];
-        twodim[0][0]=10;
-        twodim[1][0]=20;
-        twodim[2][0]=30;
+        int[][] twodim = new int[3][3];
+        twodim[0][0] = 10;
+        twodim[1][0] = 20;
+        twodim[2][0] = 30;
 
-        twodim[0][1]=11;
-        twodim[1][1]=21;
-        twodim[2][1]=31;
+        twodim[0][1] = 11;
+        twodim[1][1] = 21;
+        twodim[2][1] = 31;
 
-        twodim[0][2]=12;
-        twodim[1][2]=22;
-        twodim[2][2]=32;
+       // twodim[0][2] = 12;
+       // twodim[1][2] = 22;
+       // twodim[2][2] = 32;
 
         //for each loop tried to iterate the twodim array till end
 
-
         for (int[] num: twodim) {
-            for (int j=0;j<twodim.length;j++){
-                for(int k = 0;k<num.length;k++){
-                    System.out.println(twodim[j][k]);
-                }
+            for (int j=0;j<num.length;j++){
+                System.out.println(num [j]);
             }
         }
 
-
-       /* twodim[0][3]=13;
-        twodim[1][3]=23;
-        twodim[3][3]=33;*/
-
-
-
-
-
+       /* for (int[] num : twodim) {
+            for (int i : num) {
+                System.out.println(i);
+            }
+        }*/
     }
+
 }

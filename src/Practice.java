@@ -26,7 +26,7 @@ public class Practice {
         }
 */
 
-/* Prime number using for loop
+ //Prime number using for loop
         int j =10;
         for (int i=1;i<=j;i++){
             int count=0;
@@ -42,6 +42,6 @@ public class Practice {
                 System.out.println("The prime number is " +i);
             }
         }
- */
+
     }
 }

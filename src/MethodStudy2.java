@@ -27,7 +27,7 @@ public class MethodStudy2 {
     //Variable arguments passing
 
 
-    // Now if i wanted tp create a method that makes addition but i did not know the number of inputs i have,
+    // Now if i wanted to create a method that makes addition but i did not know the number of inputs i have,
     // In this case variable arguments / parameters will help
 
     public static void varsum(int ...vars){
@@ -39,7 +39,7 @@ public class MethodStudy2 {
 
     }
 
-    // In above method no argument is mandatpry user can give 0 or n number of variables
+    // In above method no argument is mandatory user can give 0 or n number of variables
     // to make one arguemnt mandatory follow following method
 
     public static void onefixsum (int a, int ...arr){

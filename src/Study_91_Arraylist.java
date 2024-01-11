@@ -29,13 +29,12 @@ public class Study_91_Arraylist {
         AS.add("Ankush");
         AS.add("Dhawale");
 
-        // Add at specific index
+        // Add value at specific index
 
         AS.add(0,"Shri");
         AS.add(1,"Ankush");
 
-        // Add All methhod can add one arraylist in another
-
+        // Add All method can add one arraylist in another
         // we already have a integer type arraylist lets create another one
 
         ArrayList<Integer> Ai= new ArrayList<>();
@@ -45,11 +44,10 @@ public class Study_91_Arraylist {
 
         Al.addAll(Ai);  // This methoid is adding the Ai arraylist in Al arraylist
 
-        for (int a:Al // here we have applied for each loop to inetrate the array list Al and print its value
+        for (int a:Al // here we have applied for each loop to intrate the array list Al and print its value
         ) {
             System.out.println(a);
         }
-
 
     }
 

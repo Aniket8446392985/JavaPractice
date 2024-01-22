@@ -1,33 +1,33 @@
 
 import java.util.*;
-import java.util.Arrays;
-
 
 public class Prac20Jan2 {
     public static void main(String[] args) {
 
-       /* String Name = "Aniket ankush Dhawale";
+/*
+        // Programe to reverse the string and keeping output as string
 
-        //  char [] chr=Name.toCharArray();
-        //   String rev=null;
+        String Name = "Aniket ankush Dhawale";
+        char [] chr=Name.toCharArray();
 
-        char[] ch = new char[Name.length()];
+        //char[] ch = new char[Name.length()];
 
+        int j=0;
         for (int i=Name.length()-1;i>=0;i--)
-
         {
-            char c= Name.charAt(i);
-            ch[i]=c;
+            chr[j]=Name.charAt(i);
+            j++;
         }
-
-        String n= String.valueOf(ch);
+        String n= String.valueOf(chr);
         System.out.println(n);
-        */
-
+*/
+///////////////////////////////////////////////////////////////////////////////////////////
         // Programe to count occurance of every unique word words in string
 
+        /*
         String line= "i am am learning learning java java java language language";
         String [] lineArray = line.split(" ");
+
 
         Set<String> unique=new HashSet<>();
         for(int i=0; i<=lineArray.length-1;i++)
@@ -35,9 +35,9 @@ public class Prac20Jan2 {
             unique.add(lineArray[i]);
         }
 
-        /*
-        Set <String > unique= new HashSet<>(Arrays.asList(lineArray));
-        */
+
+        //Set <String > unique= new HashSet<>(Arrays.asList(lineArray));
+
 
         for (String sst: unique){
             int count= 0;
@@ -50,9 +50,12 @@ public class Prac20Jan2 {
             }
             System.out.println(sst+"="+count);
         }
+*/
 
+///////////////////////////////////////////////////////////////////////////////////////////////////////
 
         // code to convert List to Set
+
         List<String> li= new ArrayList<>();
         li.add("an");
         li.add("dha");
@@ -60,14 +63,12 @@ public class Prac20Jan2 {
 
         Set<String> st= new HashSet<>();
         st.addAll(li);
-        for(String ss: st){
+        for(String ss: st)
+        {
             System.out.println(ss);
         }
 
 
-
     }
-
-
 
 }

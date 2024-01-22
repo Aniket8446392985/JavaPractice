@@ -5,7 +5,7 @@ public class Practice20jan {
     public static void main (String args[]){
 /*
 
-//Code to print  biggest string from a string
+//Code to print biggest string from a string
 
             String name= "prashant suresh babar";
             String[] iname= name.split(" ");
@@ -27,11 +27,11 @@ public class Practice20jan {
 
         // Code to reverse the every substring from string
 
-       // StringBuffer str = new StringBuffer("aniket ankush dhawale");
+        // StringBuffer str = new StringBuffer("aniket ankush dhawale");
         //System.out.println(str.reverse());
 
         String an= "Aniket Ankush Dhawale";
-        String[] aa= an.split(" ");
+       /* String[] aa= an.split(" ");
 
         for (String st : aa){
            char[] chara = st.toCharArray();
@@ -41,26 +41,38 @@ public class Practice20jan {
                System.out.print(chara[i]);
            }
             System.out.print(" ");
-        }
+        }*/
 
-        // code to reverse sequence of substring from input string
+        // code to reverse sequence of substring from input string and also revers the sub string
 
         String[] re= an.split(" ");
         System.out.println("");
         for (int j = re.length-1;j >=0; j--)
         {
-           // System.out.print(re [j]);
-            //System.out.print(" ");
+           /* StringBuffer sb=new StringBuffer(re[j]);
+            System.out.print(sb.reverse());
+            System.out.print(" ");*/
 
-            char[] arrayrev= re[j].toCharArray();
+         /*  String bun= re[j];
+           for(int l=bun.length()-1;l>=0;l--)
+           {
+               System.out.println();
+           }*/
+
+
+           /* System.out.print(re [j]);
+            System.out.print(" ");*/
+
+           /* char[] arrayrev= re[j].toCharArray();
             for(int k =arrayrev.length-1;k>=0;k--)
             {
                 System.out.print(arrayrev[k]);
             }
-            System.out.print(" ");
+
+            System.out.print(" ");*/
+
+
         }
-
-
 
     }
 

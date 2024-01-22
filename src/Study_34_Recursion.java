@@ -51,16 +51,4 @@ public class Study_34_Recursion
         ob.febo(5);
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
 }

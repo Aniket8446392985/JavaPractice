@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class Practice20jan {
 
     public static void main (String args[]){
-/*
+
 
 //Code to print biggest string from a string
 
@@ -23,7 +23,7 @@ public class Practice20jan {
             }
             System.out.println(n);
             System.out.println(siz);
- */
+
 
         // Code to reverse the every substring from string
 

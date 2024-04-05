@@ -7,7 +7,7 @@ import java.util.LinkedList;
 public class Study_92_93_LinkedList {
 
     // Linked list is very similar to Arraylist just as some different data saving mechanism
-    // linked list members has the referene to member before na d member after that
+    // linked list members has the reference to member before and member after that
 
     public static void main (String args[]){
 
